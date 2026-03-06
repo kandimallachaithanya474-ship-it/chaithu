@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>SmartRetail - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">
+        <h2>🛍 SmartRetail</h2>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html" class="nav-item">Home</a></li>
+        <li><a href="products.html" class="nav-item">Products</a></li>
+        <li><a href="cart.html" class="nav-item">Cart</a></li>
+        <li><a href="about.html" class="nav-item">About</a></li>
+        <li><a href="contact.html" class="nav-item">Contact</a></li>
+        <li><a href="login.html" class="nav-item active">Login</a></li>
+         <li><a href="signup.html" class="nav-item">Signup</a></li>
+         <li><a href="checkout.html" class="nav-item">Checkout</a></li>
+    </ul>
+</div>
+
+<!-- Login Section -->
+<div class="container" style="text-align:center;">
+
+    <!-- Login Form -->
+    <div id="loginSection">
+        <h2>Login</h2>
+        <br>
+        <form onsubmit="event.preventDefault(); login();">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage" style="margin-top:10px;"></p>
+    </div>
+
+    <!-- Logout Section -->
+    <div id="logoutSection" style="display:none;">
+        <h2 id="welcomeText"></h2>
+        <br>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+</div>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

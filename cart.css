@@ -1,0 +1,107 @@
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* =========================
+   NAVIGATION MENU
+========================= */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #f1c40f;
+}
+
+/* =========================
+   NAVBAR TITLE
+========================= */
+.navbar {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* =========================
+   CART ITEMS
+========================= */
+#cart-items {
+    margin-top: 20px;
+}
+
+.cart-item {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* =========================
+   TOTAL
+========================= */
+#total, #cart-total {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #27ae60;
+}
+
+/* =========================
+   BUTTON
+========================= */
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}

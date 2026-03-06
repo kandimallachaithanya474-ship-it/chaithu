@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SmartRetail - Checkout</title>
+
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+<div class="navbar no-print">
+    <div class="logo">
+        <h2>🛍 SmartRetail</h2>
+    </div>
+</div>
+<ul>
+   <li> <a href="index.html">Home</a> </li>
+   <li> <a href="products.html">Products</a> </li>
+   <li> <a href="cart.html">Cart</a> </li>
+   <li> <a href="about.html">About</a> </li>
+   <li> <a href="contact.html">Contact</a> </li>
+   <li> <a href="login.html">Login</a></li>
+   <li> <a href="signup.html">Signup</a></li>
+   <li> <a href="checkout.html">Checkout</a></li>
+    </ul>
+
+<div class="checkout-container">
+
+    <!-- BILL AREA -->
+    <div class="bill-card" id="billSection">
+        <h2 style="text-align:center;">SmartRetail Invoice</h2>
+        <hr>
+
+        <p><strong>Date:</strong> <span id="billDate"></span></p>
+        <br>
+
+        
+
+<h2>Checkout</h2>
+
+<div id="checkout-items"></div>
+
+<p>Subtotal: ₹<span id="subtotal">0</span></p>
+<p>Tax (5%): ₹<span id="tax">0</span></p>
+<p><b>Total: ₹<span id="total">0</span></b></p>
+
+
+
+<script src="script.js"></script>
+</body>
+
+        <p style="text-align:center;">Thank You for Shopping!</p>
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="no-print" style="text-align:center; margin-top:20px;">
+        <button onclick="printBill()">Print Bill</button>
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+
+</div>
+<footer>
+    <p>SmartRetail Store</p>
+    <p>Address: 123 Main Street, kadapa</p>
+    <p>Email: smartretail@email.com | Phone: +91 9876543210</p>
+    <p>© 2026 SmartRetail</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

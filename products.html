@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products - SmartRetail</title>
+<link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <h2>SmartRetail</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+    </ul>
+</div>
+
+<div class="container">
+<h1 class="main-title">Our Products</h1>
+
+<!-- ================= FRUITS ================= -->
+<div class="category">
+<h2>Fruits</h2>
+<div class="product-grid">
+
+<div class="product">
+    <img src="apple.jpg" alt="apple" width="100" height="100">
+<h4>Apple</h4>
+<p>₹100 per Kg</p>
+<select id="apple"></select>
+<button onclick="addToCart('Apple',100,'apple')">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="banana.jpg" alt="banana">
+<h4>Banana</h4>
+<p>₹40 per Kg</p>
+<select id="banana"></select>
+<button onclick="addToCart('Banana',40,'banana')">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="orange.jpg" alt="orange">
+<h4>Orange</h4>
+<p>₹80 per Kg</p>
+<select id="orange"></select>
+<button onclick="addToCart('Orange',80,'orange')">Add to Cart</button>
+</div>
+<div class="product">
+     <img src="download.jpg" alt="guava">
+<h4>Guava</h4>
+<p>₹80 per Kg</p>
+<select id="guava"></select>
+<button onclick="addToCart('Guava',80,'guava')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="download (2).jpg" alt="watermelon">
+<h4>Watermelon</h4>
+<p>₹50 per Kg</p>
+<select id="watermelon"></select>
+<button onclick="addToCart('Watermelon',50,'watermelon')">Add to Cart</button>
+</div>
+
+</div>
+</div>
+
+<!-- ================= VEGETABLES ================= -->
+<div class="category">
+<h2>Vegetables</h2>
+<div class="product-grid">
+
+<div class="product">
+    <img src="tomato.jpg" alt="tomato">
+<h4>Tomato</h4>
+<p>₹30 per Kg</p>
+<select id="tomato"></select>
+<button onclick="addToCart('Tomato',30,'tomato')">Add to Cart</button>
+</div>
+
+<div class="product">
+     <img src="potato.jpg" alt="potato">
+<h4>Potato</h4>
+<p>₹25 per Kg</p>
+<select id="potato"></select>
+<button onclick="addToCart('Potato',25,'potato')">Add to Cart</button>
+</div>
+
+<div class="product">
+     <img src="onion.jpg" alt="onion">
+<h4>Onion</h4>
+<p>₹35 per Kg</p>
+<select id="onion"></select>
+<button onclick="addToCart('Onion',35,'onion')">Add to Cart</button>
+</div>
+
+<div class="product">
+     <img src="mirchi.jpg" alt="mirchi">
+<h4>Mirchi</h4>
+<p>₹40 per Kg</p>
+<select id="mirchi"></select>
+<button onclick="addToCart('Mirchi',40,'mirchi')">Add to Cart</button>
+</div>
+<div class="product">
+     <img src="beans.jpg" alt="beans">
+<h4>BEANS</h4>
+<p>₹60 per Kg</p>
+<select id="beans"></select>
+<button onclick="addToCart('Beans',60,'beans')">Add to Cart</button>
+</div>
+
+<div class="category">
+<h2>spices</h2>
+<div class="product-grid">
+
+<div class="product">
+    <img src="clove.jpg" alt="clove">
+<h4>CLOVE</h4>
+<p>₹100 per Kg</p>
+<select id="clove"></select>
+<button onclick="addToCart('Clove',100,'clove')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="ginger.jpg" alt="ginger">
+<h4>GINGER</h4>
+<p>₹120 per Kg</p>
+<select id="ginger"></select>
+<button onclick="addToCart('Ginger',120,'ginger')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="pepper.jpg" alt="pepper">
+<h4>PEPPER</h4>
+<p>₹150 per Kg</p>
+<select id="pepper"></select>
+<button onclick="addToCart('Pepper',150,'pepper')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="cardomom.jpg" alt="black pepper">
+<h4>CARDOMOM</h4>
+<p>₹100 per Kg</p>
+<select id="cardomom"></select>
+<button onclick="addToCart('Black Pepper',100,'blackpepper')">Add to Cart</button>
+</div>
+<div class="product">
+<img src="staranise.jpg" alt="star anise">
+<h4>STAR ANISE</h4>
+<p>₹250 per Kg</p>
+<select id="staranise"></select>
+<button onclick="addToCart('Star Anise',250,'staranise')">Add to Cart</button>
+</div>
+
+<div class="category">
+<h2>MILLETS</h2>
+<div class="product-grid">
+
+<div class="product">
+    <img src="ragi.jpg" alt="ragi">
+<h4>RAGI</h4>
+<p>₹200 per Kg</p>
+<select id="ragi"></select>
+<button onclick="addToCart('Ragi',200,'ragi')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="jowar.jpg" alt="jowar">
+<h4>JOWAR</h4>
+<p>₹150 per Kg</p>
+<select id="jowar"></select>
+<button onclick="addToCart('Jowar',150,'jowar')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="bajra.jpg" alt="bajra">
+<h4>BAJRA</h4>
+<p>₹100 per Kg</p>
+<select id="bajra"></select>
+<button onclick="addToCart('Bajra',100,'bajra')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="wheat.jpg" alt="wheat">
+<h4>WHEAT</h4>
+<p>₹200 per Kg</p>
+<select id="wheat"></select>
+<button onclick="addToCart('Wheat',200,'wheat')">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="kangini.jpg" alt="kangini">
+<h4>KANGINI</h4>
+<p>₹200 per Kg</p>
+<select id="kangini"></select>
+<button onclick="addToCart('Kangini',200,'kangini')">Add to Cart</button>
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+<script>
+document.querySelectorAll("select").forEach(function(select) {
+    select.innerHTML =
+        "<option value='1'>1 Kg</option>" +
+        "<option value='2'>2 Kg</option>" +
+        "<option value='3'>3 Kg</option>" +
+        "<option value='4'>4 Kg</option>" +
+        "<option value='5'>5 Kg</option>";
+});
+</script>
+
+
+<footer>
+    <p>SmartRetail Store</p>
+    <p>Address: 123 Main Street, kadapa</p>
+    <p>Email: smartretail@email.com | Phone: +91 9876543210</p>
+    <p>© 2026 SmartRetail</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
